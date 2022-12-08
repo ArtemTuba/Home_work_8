@@ -58,13 +58,13 @@ console.groupEnd();
 
 
 console.group('Вивести суму лише парних чисел в діапазоні від 30 до 80.');
-let i = 30;
+let count = 30;
 
-while(i <= 80){
-    if(i % 2 === 0){
-        console.log(i);
+while(count <= 80){
+    if(count % 2 === 0){
+        console.log(count);
     }
-    i++;
+    count++;
 }
 
 console.groupEnd();
