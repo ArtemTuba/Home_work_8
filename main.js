@@ -36,7 +36,7 @@ console.groupEnd();
 console.group('Знайти добуток усіх цілих чисел від 15 до 35.');
 let num = 15;
 
-for(let i = 15; i < 35; i++) {
+for(let i = 16; i <= 35; i++) {
     num = num * i;
     console.log(num);
 }
@@ -50,22 +50,23 @@ let average = '';
 
 for(let i = 1; i <= 500; i++) {
     number = number + i;
-    average = number / 500;
 }
 
+average = number / 500;
 console.log(average);
 console.groupEnd();
 
 
 console.group('Вивести суму лише парних чисел в діапазоні від 30 до 80.');
 let count = 30;
+let result = '';
 
 while(count <= 80){
     if(count % 2 === 0){
-        console.log(count);
+        result = count;
+        console.log(result);
     }
     count++;
 }
 
 console.groupEnd();
-
