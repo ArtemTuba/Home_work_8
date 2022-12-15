@@ -52,7 +52,7 @@ for(let i = 1; i <= 500; i++) {
     number = number + i;
 }
 
-let average = number / 500;
+const average = number / 500;
 console.log(average);
 console.groupEnd();
 
