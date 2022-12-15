@@ -46,24 +46,24 @@ console.groupEnd();
 
 console.group('Знайти середнє арифметичне всіх цілих чисел від 1 до 500.');
 let number = 0;
-let average = '';
+
 
 for(let i = 1; i <= 500; i++) {
     number = number + i;
 }
 
-average = number / 500;
+let average = number / 500;
 console.log(average);
 console.groupEnd();
 
 
 console.group('Вивести суму лише парних чисел в діапазоні від 30 до 80.');
 let count = 30;
-let result = '';
+let result = 0;
 
 while(count <= 80){
     if(count % 2 === 0){
-        result = count;
+        result += count;
         console.log(result);
     }
     count++;
