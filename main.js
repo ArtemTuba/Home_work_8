@@ -64,9 +64,8 @@ let result = 0;
 while(count <= 80){
     if(count % 2 === 0){
         result += count;
-        console.log(result);
     }
     count++;
 }
-
+console.log(result);
 console.groupEnd();
